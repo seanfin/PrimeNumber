@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrimeNumber
+namespace PrimeNumber.Console
 {
     
 
-    public class CheckForPrime
+    public class PrimeNumber
     {
         /// <summary>
         /// The lower limit of the prime number list.
@@ -26,7 +26,7 @@ namespace PrimeNumber
         /// </summary>
         /// <param name="lowerLimit">Lower Limit of the check for prime class. </param>
         /// <param name="upperLimit">Upper Limit of the check for prime class.</param>
-        public CheckForPrime(int lowerLimit, int upperLimit)
+        public PrimeNumber(int lowerLimit, int upperLimit)
         {
             this.LowerLimit = lowerLimit;
             this.UpperLimit = upperLimit;
@@ -37,7 +37,7 @@ namespace PrimeNumber
         /// <summary>
         /// Retrieves a list of the prime numbers and writes them to the console. 
         /// </summary>
-        public string ListofPrimeNumbers()
+        public string GetListofPrimeNumbers()
         {
             StringBuilder sb = new StringBuilder();
 
